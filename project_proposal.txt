@@ -8,3 +8,12 @@
 
 파일 업로딩은 대체적으로 음악이나 동영상을 생각하고 있으며,
 가능하다면 굳이 다운로드를 받지 않아도 사이트에서 직접 플레이를 할 수 있도록 만들고 싶습니다.
+
+[input]
+login, writing, comment, uploading
+
+[processs]
+deleting
+
+[output]
+downloading
