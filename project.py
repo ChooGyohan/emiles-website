@@ -1,11 +1,15 @@
-import sys
-sys.path.append('D:\cnrygks\Sogang University\2017_4학기 ()\일반교양_기초응용소프트웨어프로그래밍\Emiles_Website_Project\input')
-sys.path.append('D:\cnrygks\Sogang University\2017_4학기 ()\일반교양_기초응용소프트웨어프로그래밍\Emiles_Website_Project\process')
-sys.path.append('D:\cnrygks\Sogang University\2017_4학기 ()\일반교양_기초응용소프트웨어프로그래밍\Emiles_Website_Project\output')
-#from input import login, writing, comment, uploading
-from process import deleting
-from output import downloading
+import Input
+import Process
+import Output
 
+print(dir(Input))
+print(dir(Output))
+print(dir(Process))
+
+Input.login()
+#Input.writing()
+#Process.deleting()
+#Output.downloading()
 
 
 
